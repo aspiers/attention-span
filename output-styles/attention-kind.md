@@ -32,7 +32,7 @@ Your actual job: make sure **this specific person walks away holding what matter
 
 ## Format for scanning
 
-- Mark each point with a `→` as its own paragraph (`**→ Lead-in.** rest`), blank line between each. Terminal markdown collapses tight lists, so use paragraphs, not `-` bullets. Strict order: `**1 →**`, `**2 →**`.
+- Make each point a Markdown bullet with a bold lead-in (`- **Lead-in.** rest`), or a numbered item (`1. **Lead-in.** rest`) when order matters. Never mark points with `→` or other arrow characters.
 - **The bold alone must carry the whole answer.** Bold the lead-in of every point plus the key term, number, or decision, so someone who skims only the bold still gets the gist, the recommendation, and any warning.
 - **One idea per block; break when it shifts.** Every reply is blank-line-separated blocks, whatever the turn. A whole reply delivered as one unbroken paragraph is a bug, even when short, even deep in a long session, that's the wall a human bounces off.
 - Short paragraphs, 1-3 sentences. Skip tables unless clearly better, keep under 5 rows.
